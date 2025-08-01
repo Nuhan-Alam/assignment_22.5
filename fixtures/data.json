@@ -1,0 +1,305 @@
+[
+  {
+    "model": "all.category",
+    "pk": 1,
+    "fields": {
+      "name": "Fiction",
+      "description": "Fictional books"
+    }
+  },
+  {
+    "model": "all.category",
+    "pk": 2,
+    "fields": {
+      "name": "Non-fiction",
+      "description": "Non-fictional books"
+    }
+  },
+  {
+    "model": "all.category",
+    "pk": 3,
+    "fields": {
+      "name": "Science",
+      "description": "Science books"
+    }
+  },
+  {
+    "model": "all.category",
+    "pk": 4,
+    "fields": {
+      "name": "Biography",
+      "description": ""
+    }
+  },
+  {
+    "model": "all.category",
+    "pk": 5,
+    "fields": {
+      "name": "History",
+      "description": ""
+    }
+  },
+  {
+    "model": "all.category",
+    "pk": 6,
+    "fields": {
+      "name": "Mystery",
+      "description": ""
+    }
+  },
+  {
+    "model": "all.category",
+    "pk": 7,
+    "fields": {
+      "name": "Fantasy",
+      "description": ""
+    }
+  },
+  {
+    "model": "all.category",
+    "pk": 8,
+    "fields": {
+      "name": "Technology",
+      "description": ""
+    }
+  },
+  {
+    "model": "all.category",
+    "pk": 9,
+    "fields": {
+      "name": "Poetry",
+      "description": ""
+    }
+  },
+  {
+    "model": "all.category",
+    "pk": 10,
+    "fields": {
+      "name": "Philosophy",
+      "description": ""
+    }
+  },
+  {
+    "model": "all.author",
+    "pk": 1,
+    "fields": {
+      "name": "J.K. Rowling",
+      "biography": "Author of Harry Potter series"
+    }
+  },
+  {
+    "model": "all.author",
+    "pk": 2,
+    "fields": {
+      "name": "George Orwell",
+      "biography": "English novelist and essayist"
+    }
+  },
+  {
+    "model": "all.author",
+    "pk": 3,
+    "fields": {
+      "name": "Isaac Asimov",
+      "biography": ""
+    }
+  },
+  {
+    "model": "all.author",
+    "pk": 4,
+    "fields": {
+      "name": "Stephen Hawking",
+      "biography": ""
+    }
+  },
+  {
+    "model": "all.author",
+    "pk": 5,
+    "fields": {
+      "name": "Yuval Noah Harari",
+      "biography": ""
+    }
+  },
+  {
+    "model": "all.author",
+    "pk": 6,
+    "fields": {
+      "name": "Agatha Christie",
+      "biography": ""
+    }
+  },
+  {
+    "model": "all.author",
+    "pk": 7,
+    "fields": {
+      "name": "J.R.R. Tolkien",
+      "biography": ""
+    }
+  },
+  {
+    "model": "all.author",
+    "pk": 8,
+    "fields": {
+      "name": "Walter Isaacson",
+      "biography": ""
+    }
+  },
+  {
+    "model": "all.author",
+    "pk": 9,
+    "fields": {
+      "name": "Carl Sagan",
+      "biography": ""
+    }
+  },
+  {
+    "model": "all.author",
+    "pk": 10,
+    "fields": {
+      "name": "Rumi",
+      "biography": ""
+    }
+  },
+  {
+    "model": "all.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$...$...", 
+      "last_login": null,
+      "is_superuser": false,
+      "email": "user1@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-08-01T12:00:00Z",
+      "membership_date": "2025-08-01T12:00:00Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "all.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$...$...",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "user2@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-08-01T12:00:00Z",
+      "membership_date": "2025-08-01T12:00:00Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "all.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$...$...",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "user3@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-08-01T12:00:00Z",
+      "membership_date": "2025-08-01T12:00:00Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "all.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$...$...",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "user4@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-08-01T12:00:00Z",
+      "membership_date": "2025-08-01T12:00:00Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "all.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$...$...",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "user5@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-08-01T12:00:00Z",
+      "membership_date": "2025-08-01T12:00:00Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "all.book",
+    "pk": 1,
+    "fields": {
+      "title": "Book One",
+      "isbn": "1234567890123",
+      "author": 1,
+      "category": 1,
+      "current_borrow_record": null,
+      "created_at": "2025-08-01T12:00:00Z",
+      "updated_at": "2025-08-01T12:00:00Z"
+    }
+  },
+  {
+    "model": "all.book",
+    "pk": 2,
+    "fields": {
+      "title": "Book Two",
+      "isbn": "1234567890124",
+      "author": 2,
+      "category": 2,
+      "current_borrow_record": null,
+      "created_at": "2025-08-01T12:00:00Z",
+      "updated_at": "2025-08-01T12:00:00Z"
+    }
+  },
+  {
+    "model": "all.book",
+    "pk": 3,
+    "fields": {
+      "title": "Book Three",
+      "isbn": "1234567890125",
+      "author": 3,
+      "category": 3,
+      "current_borrow_record": null,
+      "created_at": "2025-08-01T12:00:00Z",
+      "updated_at": "2025-08-01T12:00:00Z"
+    }
+  },
+
+
+  {
+    "model": "all.borrowrecord",
+    "pk": 1,
+    "fields": {
+      "book": 1,
+      "member": 1,
+      "borrow_date": "2025-07-15",
+      "return_date": "2025-08-01"
+    }
+  },
+  {
+    "model": "all.borrowrecord",
+    "pk": 2,
+    "fields": {
+      "book": 2,
+      "member": 2,
+      "borrow_date": "2025-07-20",
+      "return_date": "2025-08-05"
+    }
+  }
+
+]
