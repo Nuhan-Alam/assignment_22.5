@@ -59,6 +59,9 @@ class BorrowSerializer(serializers.ModelSerializer):
         return SimpleUserSerializer(obj.member).data
 
     def create(self, validated_data):
+        """
+        Create borrow record
+        """
         user = self.context['user']
         book_id = self.context['book_id']
         book = Book.objects.get(id=book_id)
