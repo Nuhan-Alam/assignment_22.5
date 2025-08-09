@@ -27,7 +27,6 @@ class User(AbstractUser):
         return self.email
 
 class Book(models.Model):
-    current_borrow_record = models
     title = models.CharField(max_length=200)
     isbn = models.CharField(max_length=13)
     author = models.ForeignKey(Author,on_delete=models.CASCADE, related_name="books")
@@ -51,6 +50,6 @@ class Book(models.Model):
 
 class BorrowRecord(models.Model):
     book = models.ForeignKey(Book, on_delete=models.CASCADE)
-    member = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
+    member = models.ForeignKey(User, on_delete=models.CASCADE)
     borrow_date = models.DateField(auto_now_add=True)
     return_date = models.DateField()
